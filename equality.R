@@ -61,6 +61,9 @@ compute_equality <- function(dataset) {
 
     return(eq_data)
 }
+                                   
+## Обработать исходный датафрейм
+oko_data <- read.csv("template.csv")
 
 ## Сохранить датасет со значениями показателя для каждой образовательной организации
 equality <- compute_equality(oko_data)
